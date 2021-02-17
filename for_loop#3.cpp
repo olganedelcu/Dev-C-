@@ -1,14 +1,16 @@
-#include<iostream>
+// C++ program to find the sum of first n natural numbers
+// positive integers such as 1,2,3,...n are known as natural numbers
+
+#include <iostream>
+
 using namespace std;
 
-// Find the sum of the first n Natural Numbers
- 
-int main(){
-    char num,sum;
+int main() {
+    int num, sum;
     sum = 0;
 
-    cout << "Introduce a Natural number: ";
-    cin << num;
+    cout << "Enter a positive integer: ";
+    cin >> num;
 
     for (int count = 1; count <= num; ++count) {
         sum += count;

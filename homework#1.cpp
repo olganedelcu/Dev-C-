@@ -15,6 +15,7 @@ int main(){
     cout << "Introduce a number: ";
     cin >> num;
 
+    if (number < 999 || number < 1) continue
     while (num > 0) {
         sum += num;
 

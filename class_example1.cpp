@@ -10,4 +10,18 @@ int main(){
     int num,sum;
     sum = 0;
     
+    cout << "Introduce a number: ";
+    cin >> num;
+
+    while (num > 0) {
+        sum += num;
+
+        cout << "Enter a number: ";
+        cin >> num;
+    }
+
+    // display sum
+    cout << "\nThe sum is " << sum << endl;
+
+    return 0;
 }

@@ -1,4 +1,4 @@
-#include<isostream>
+#include<iostream>
 using namespace std;
 
 // Globall declaration

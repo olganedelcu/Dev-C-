@@ -1,6 +1,6 @@
 
-#include<isostream>
-using naespace std;
+#include<iostream>
+using namespace std;
 
 int main(){
     int number;
@@ -10,7 +10,7 @@ int main(){
 
     // checks if the number is positive
     if(number > 0){
-        cout << "You have entered a positive integer: " << number << end     
+        cout << "You have entered a positive integer: " << number << endl;     
     }
     cout << "This statement is always executed.";
     

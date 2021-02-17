@@ -1,5 +1,5 @@
 // check if a number is even or odd
-#include<isostream>
+#include<iostream>
 using namespace std;
 
 int main()

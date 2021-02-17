@@ -7,7 +7,7 @@ int main(){
     // Local variable declaration 
     int a =1,b=2,c=0;
     c=a+b;
-    count << c;
+    cout << c;
 
     return 0;
 }
@@ -15,7 +15,7 @@ int main(){
     //Local variable declaration
     int b=4,c=0;
     c=a + b; // a is a global variable
-    count << c;
+    cout << c;
 
     return 0
 

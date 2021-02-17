@@ -1,6 +1,8 @@
 
 #include<isostream>
 
+using namespace std;
+
 int main(){
 	int num1,sum;
 	float average_mark;

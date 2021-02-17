@@ -9,7 +9,7 @@ int main()
     cout << "Enter the number : ";
     cin >> val;
     num = val;
-    while (num != 0)
+    while (num != 1)
     {
         sum = sum + a % 10;
         num = num / 10;

@@ -11,7 +11,7 @@ int main(){
 
     return 0;
 }
-{
+/* {
     //Local variable declaration
     int b=4,c=0;
     c=a + b; // a is a global variable
@@ -19,4 +19,5 @@ int main(){
 
     return 0
 
-}
+} */
+

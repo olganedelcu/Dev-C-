@@ -3,11 +3,11 @@
 using namespace std;
 
 int main(){
-    char open;
+    char oper;
     float num1,num2;
-    cout << "Enter an operator (+,-,*,/): ";
+    cout << "Enter an operator (+, -, *, /): ";
     cin >> oper;
-    count << "Enter two numbers: " << endl;
+    cout << "Enter two numbers: " << endl;
     cin >> num1 >> num2;
 
     switch (oper) {
@@ -16,12 +16,12 @@ int main(){
             break;
         case '-':
             cout << num1 << " - " << num2 << " = " << num1 - num2;
-            break 
+            break;
         case '*':
-            cout << num1 << " * " << num2 << " = " >> num1 * num2;
+            cout << num1 << " * " << num2 << " = " << num1 * num2;
             break;
         case '/':
-            cout  num1 << " / " << num2 << " = " >> num1 / num2;
+            cout  << num1 << " / " << num2 << " = " << num1 / num2;
             break;
         default:
         //operator if doesn't match any case constant

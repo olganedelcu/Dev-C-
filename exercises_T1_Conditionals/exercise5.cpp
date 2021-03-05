@@ -10,9 +10,18 @@ using namespace std;
 
 int main(){
     int p,a;
+    float one,two;
     p = 7;
     cout << "Please introduce your age: ";
     cin >> a;
-    
+	one = (p-p*0.6);
+	two = (p-p*0.55);
+    if ( 5 <= a) && ( a <= 60){
+        cout << "Ticket price will be: " << p;
+    }else if (a < 6){
+        cout << "Tickets price will be: "<< one;
+    }else if (a > 60){
+        cout <<  "Tickets price will be: "<< two;
+    }
 
 }

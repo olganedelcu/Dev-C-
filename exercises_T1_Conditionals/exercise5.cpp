@@ -7,7 +7,7 @@ the normal ticket price
 #include <iostream>
 
 using namespace std;
-
+#define 
 int main(){
     int p,a;
     float one,two;

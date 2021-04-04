@@ -12,7 +12,7 @@
         cout << i << endl;
     }
     // Write a program that prints the integer numbers from 1 to 100 counting two by two.
-ª
+    
     cout << "\n\n";
     for (int i = 1; i <= 100;i+= 2)
     {
@@ -20,4 +20,4 @@
     }
 }
 
-}
+

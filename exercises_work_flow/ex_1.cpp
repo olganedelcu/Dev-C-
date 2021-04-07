@@ -1,9 +1,7 @@
 // Write a program that prints the integer numbers from 1 to 100.
-// Write a program that prints the integer numbers from 100 to 1.
-// Write a program that prints the multiples of 3 from 1 to 100.
 
 // #include <iostream>;
-// using namespace std;
+ using namespace std;
 
  int main(){
 
@@ -18,6 +16,7 @@
     {
         cout << i << endl;
     }
+    // Write a program that prints the multiples of 3 from 1 to 100.
+    
 }
-
 

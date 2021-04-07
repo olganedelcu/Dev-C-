@@ -22,5 +22,5 @@ int factorial(int a){
         factorialResult = factorialResult * i;
     }
     
-    return powerResult;
+    return factorialResult;
 }

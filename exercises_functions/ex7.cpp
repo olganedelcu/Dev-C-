@@ -8,13 +8,38 @@ using namespace std;
 
 
 double power(double x,int n);
-int factorial(int a);
+double factorial(double a);
+double approximation_e(int n,double x);
 
 int main(void){
    
+   double precision;
+   double x;
+   double result;
+
+    do{
+        cout << "Enter precision (>0): ";
+        cin >> precision;
+    }while(precision <= 0);
    
-   
+    cout << "Enter x: ";
+    cin >> x;
+    
+    result = approximation_e(precision,x);
+
+    cout << "x = " << x << ";  precission = " << precision << ";  approximation = " << result << "\n";   
     return 0;
+}
+
+double approximation_e(int n,double x){
+    double result;
+    int z;
+
+    for (z= 0;z <=n;z++){
+        result +=  power(x, z) / factorial(z);
+    }
+
+    return result;
 }
 
 double power(double x,int n){
@@ -28,13 +53,15 @@ double power(double x,int n){
     return powerResult;
 }
 
-double factorial(int a){
+double factorial(double a){
     int i;
-    int factorialResult = 1;
+    double factorialResult = 1;
 
     for(i=1; i<= a; i++){
         factorialResult = factorialResult * i;
     }
     
-    return powerResult;
+    return factorialResult;
 }
+
+
